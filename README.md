@@ -1,7 +1,7 @@
 # fandom-migrations
 tracking how fandoms shift between fic posting platforms via wayback machine and spreadsheets.
 
-This project was started because I kept seeing people say that anime/manga fandom was like, a totally different sphere from the ~Western Media Fandoms~ that hung out on livejournal and eventually bore AO3
+This project was started because I kept seeing people say that anime/manga fandom was like, a totally different sphere from the `~`Western Media Fandoms`~` that hung out on livejournal and eventually bore AO3
 
 ## fandoms chosen:
 
