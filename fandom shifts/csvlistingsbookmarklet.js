@@ -1,1 +1,0 @@
-javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://web.archive.org/web/20230526150454/https://random.fangirling.net/assets/scripts/ao3_works_stats_beta.js?'+ Math.random();})();
