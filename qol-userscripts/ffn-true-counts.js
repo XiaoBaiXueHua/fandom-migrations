@@ -38,23 +38,10 @@ const currentCategory = function () {
 	return cat;
 }();
 
-// function recurve(link) {
-// 	fetchNumPages(link).then((pages) => {
-// 		if (pages) {
-// 			fetchLastPage(link, pages).then((fics) => {
-// 				return 25*(pages-1) + fics;
-// 			})
-// 		} else {
-// 			console.warn("waiting 5s for ", link, "...");
-// 			setTimeout(() => {
-// 				recurve(link);
-// 			}, 5000)
-// 		}
-// 	})
-// }
 
 let catList = trackedFandoms[currentCategory];
 // console.log(`currentCategory: ${currentCategory}; catList: `, catList);
+var i = 1; // every 5 fandoms, add in a class that lets us space shit out a bit
 for (const fandom of fandomList) {
 	const link = fandom.querySelector("a");
 	const checkbox = document.createElement("input");
@@ -62,8 +49,15 @@ for (const fandom of fandomList) {
 	// checkbox.id = link.href;
 	const fanName = link.title;
 	if (catList.includes(fanName)) {
+		if (i%5 == 0) {
+			fandom.className += "margin-gap";
+		}
+		i++;
 		checkbox.checked = true;
 		const ref = link.href;
+		if (fanName.match(/(Final\sFantasy|Star\s?Trek)/)) {
+			fandom.className += " groupie";
+		}
 		setTimeout(function () {
 			// recurve(ref);
 			fetchNumPages(ref).then((pages) => {
