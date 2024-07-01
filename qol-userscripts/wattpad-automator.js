@@ -13,33 +13,72 @@ function auto() {
 		// console.log(result);
 		return result;
 	}
-	// getResults();
-
-	var resultArray = new Array();
 
 	const wpList = JSON.parse(localStorage.getItem("trackedFandoms"));
+	const wpObj = JSON.parse(localStorage.getItem("trackedObj"));
+	const wpEntries = Object.entries(wpObj);
+	// console.log(`wpObj: `, wpObj);
+
+	function categorize(str) {
+		var i = 0;
+		let category = "misc";
+		
+		while (i < wpEntries.length) {
+			if (wpEntries[i][1].fandoms.includes(str)) {
+				category = wpEntries[i][0];
+				break;
+			}
+			i++;
+		}
+		return category;
+	}
+	const results = {
+		anime: new Array(),
+		cartoon: new Array(),
+		tv: new Array(),
+		game: new Array(),
+		bandom: new Array(),
+		kpop: new Array(),
+		movie: new Array(),
+		book: new Array(),
+		misc: new Array()
+	}
+
 	const tmpDiv = document.createElement("div");
 	const numFandoms = wpList.length;
-	var i = 1;
-	for (const fandom of wpList) {
-		setTimeout(async () => {
-			const response = await fetch(new Request(`/search/%23${fandom}`));
-			if (response.ok) {
-				const txt = await response.text();
-				tmpDiv.innerHTML = txt;
-				const res = getResults(tmpDiv);
-				console.log(`${fandom}: ${res.toLocaleString()}`);
-				resultArray.push([fandom, res]);
-				i++;
-				if (i == numFandoms) {
-					console.log(resultArray);
-				}
+	for (var i = 0; i <= numFandoms; i++) {
+		// const fandom = wpList[i];
+		let fandom;
+		try {
+			fandom = wpList[i];
+		} catch (e) {
+			console.log(`we have hit the end of the list. result array console coming soon.`);
+		}
+		let categy = categorize(fandom);
+		let cat = wpObj[categy];
+		async function hoo() {
+			// local function
+			if (fandom == undefined) {
+				// console.log(resultArray);
+				// console.log(results)
+				setTimeout(() => { console.log(`final results:\n`, results)}, (wpList+50)*3500) // and then we wait to drop the final obj at the bottom. i hope.
 			} else {
-				console.error(`oh no the response was not okay. :( probably just rate-limited... status: ${response.status}\n`, response);
+				const response = await fetch(new Request(`/search/%23${fandom}`));
+				if (response.ok) {
+					const txt = await response.text();
+					tmpDiv.innerHTML = txt;
+					const res = getResults(tmpDiv);
+					console.log(`%c [${categy}]`, `color: ${cat.color}`, ` ${fandom}: ${res.toLocaleString()}`);
+					// resultArray.push([fandom, res]);
+					results[categy].push([fandom, res]);
+				} else {
+					console.error(`oh no the response was not okay. :( probably just rate-limited... status: ${response.status}\n`, response);
+				}
 			}
-		}, 1500); // open a new page every 1.5 seconds
-		// break;
+
+		}
+		setTimeout(hoo, 1500); // open a new page every 1.5 seconds to help prevent 429 statuses
 	}
-	// console.log(resultArray);
+	
 }
 auto();
