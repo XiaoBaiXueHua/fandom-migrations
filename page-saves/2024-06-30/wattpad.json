@@ -1,0 +1,30 @@
+{
+	"anime":[
+		["bleach",6118],["naruto",56586],["princeoftennis",499],["sailormoon",2213],["cardcaptorsakura",211],["inuyasha",3464],["souleater",6016],["fruitsbasket",1362],["spyxfamily",1010],["blueexorcist",2741],["madokamagica",699],["fairytail",48399],["jjba",7502],["attackontitan",28432],["yurionice",5896],["rwby",22924],["haikyuu",51626],["mha",97846],["fullmetalalchemist",2291],["hetalia",30591]
+	],
+	"cartoon":[
+		["powerpuffgirls",883],["lok",1113],["daria",224],["miraculousladybug",14459],["svtfoe",2713],["dannyphantom",3296],["gravityfalls",14819],["kimpossible",387],["vld",4079],["mlp",13763],["shera",1607],["teentitans",4803],["voltron",17301],["stevenuniverse",13218],["invaderzim",1776],["totaldrama",5435],["atla",4309]
+	]
+	,
+	"tv":[
+		["doctorwho",15299],["ouat",10159],["glee",9161],["daredevil",1474],["startrek",2746],["buffy",888],["agentsofshield",2525],["stargate",430],["merlin",7018],["wandavision",1002],["sherlock",15258],["agentcarter",533],["teenwolf",33371],["xfiles",215],["thewalkingdead",14681],["jessicajones",311],["supernatural winchester",24972]
+	],
+	"game":[
+		["fnaf",51561],["dragonage",988],["genshinimpact",22997],["finalfantasy",2151],["legendofzelda",3999],["honkaistarrail",1153],["honkaiimpact3rd",730],["leagueoflegends",2625],["mysticmessenger",4441],["fireemblem",2915],["overwatch",6164],["persona",2623],["minecraft",41364],["danganronpa",35299],["undertale",50420],["kingdomhearts",3375],["pokemon",39827],["honkai",1357],["sonic",16057]
+	],
+	"bandom":[
+		["onedirection",128104],["falloutboy",7908],["twentyonepilots",16645],["mychemicalromance",13621],["panicatthedisco",9344]
+	],
+	"kpop":[
+		["twice",28973],["seventeen",31125],["bts",328912],["nct",43801],["txt",17636],["monstax",9545],["got7",28918],["shinee",6389],["Kpop",175734],["exo",59306],["redvelvet",16354],["straykids",43317],["blackpink",46811],["loona",4686]
+	],
+	"movie":[
+		["avengers",61841],["thor",22550],["starwars",26471],["guardiansofthegalaxy",2183],["marvel",81114],["captainamerica",25113]
+	],
+	"book":[
+		["hoo",13840],["silmarillion",325],["harrypotter",158765],["lotr",5214],["gameofthrones",5836],["thehobbit",3134],["warriorcats",26070],["hungergames",14654],["twilight",29005],["pjo",22406]
+	],
+	"misc":[
+		["welcometonightvale",328],["lesmiserables",964],["homestuck",13519],["roosterteeth",1974],["hamilton",21170],["youtube",61916],["wwe",11879],["danandphil",11692],["dreamsmp",32086],["vocaloid",12838],["hermitcraft",3675]
+	]
+}
