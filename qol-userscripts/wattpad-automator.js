@@ -2,7 +2,7 @@ function auto() {
 	function getResults(el) {
 		const searchResults = el.querySelector(".search-info");
 		const spans = searchResults.querySelectorAll("span.sr-only");
-		console.log(spans);
+		// console.log(spans);
 		let result = 0;
 		for (const sp of spans) {
 			if (sp.innerText.search("results") >= 0) { // if the span has the results thing in it, 
@@ -10,26 +10,36 @@ function auto() {
 				break; // and end loop
 			}
 		}
-		console.log(result);
+		// console.log(result);
+		return result;
 	}
 	// getResults();
 
-	const resultArray = new Array();
+	var resultArray = new Array();
 
 	const wpList = JSON.parse(localStorage.getItem("trackedFandoms"));
 	const tmpDiv = document.createElement("div");
+	const numFandoms = wpList.length;
+	var i = 1;
 	for (const fandom of wpList) {
 		setTimeout(async () => {
 			const response = await fetch(new Request(`/search/%23${fandom}`));
 			if (response.ok) {
 				const txt = await response.text();
-				tmpDiv.innerText = txt;
-				resultArray.push([fandom, getResults(tmpDiv)]);
+				tmpDiv.innerHTML = txt;
+				const res = getResults(tmpDiv);
+				console.log(`${fandom}: ${res.toLocaleString()}`);
+				resultArray.push([fandom, res]);
+				i++;
+				if (i == numFandoms) {
+					console.log(resultArray);
+				}
 			} else {
 				console.error(`oh no the response was not okay. :( probably just rate-limited... status: ${response.status}\n`, response);
 			}
 		}, 1500); // open a new page every 1.5 seconds
+		// break;
 	}
-	console.log(resultArray);
+	// console.log(resultArray);
 }
 auto();
