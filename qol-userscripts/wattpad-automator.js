@@ -1,19 +1,18 @@
-function auto() {
-	function getResults(el) {
-		const searchResults = el.querySelector(".search-info");
-		const spans = searchResults.querySelectorAll("span.sr-only");
-		// console.log(spans);
-		let result = 0;
-		for (const sp of spans) {
-			if (sp.innerText.search("results") >= 0) { // if the span has the results thing in it, 
-				result = parseInt(sp.innerText.replace(/(results|,)/g, "")); // clean it up
-				break; // and end loop
-			}
+function getResults(el) {
+	const searchResults = el.querySelector(".search-info");
+	const spans = searchResults.querySelectorAll("span.sr-only");
+	// console.log(spans);
+	let result = 0;
+	for (const sp of spans) {
+		if (sp.innerText.search("results") >= 0) { // if the span has the results thing in it, 
+			result = parseInt(sp.innerText.replace(/(results|,)/g, "")); // clean it up
+			break; // and end loop
 		}
-		// console.log(result);
-		return result;
 	}
-
+	// console.log(result);
+	return result;
+}
+function auto() {
 	const wpList = JSON.parse(localStorage.getItem("trackedFandoms"));
 	const wpObj = JSON.parse(localStorage.getItem("trackedObj"));
 	const wpEntries = Object.entries(wpObj);
