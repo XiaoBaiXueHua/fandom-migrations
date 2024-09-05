@@ -1,3 +1,5 @@
+// function that gets copy-pasted into the console and run to yoink all the wp data at once
+
 function getResults(el) {
 	const searchResults = el.querySelector(".search-info");
 	const spans = searchResults.querySelectorAll("span.sr-only");
@@ -67,7 +69,7 @@ function auto() {
 					const txt = await response.text();
 					tmpDiv.innerHTML = txt;
 					const res = getResults(tmpDiv);
-					console.log(`%c [${categy}]`, `color: ${cat.color}`, ` ${fandom}: ${res.toLocaleString()}`);
+					console.debug(`%c [${categy}]`, `color: ${cat.color}`, ` ${fandom}: ${res.toLocaleString()}`);
 					// resultArray.push([fandom, res]);
 					results[categy].push([fandom, res]);
 				} else {
@@ -78,6 +80,6 @@ function auto() {
 		}
 		setTimeout(hoo, 1500); // open a new page every 1.5 seconds to help prevent 429 statuses
 	}
-	
+	// console.log(`results after the loop: \n`, results); // doing it this way also doesn't work bc of the async lol
 }
 auto();
