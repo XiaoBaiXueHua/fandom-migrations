@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           fanfiction.net true fic counts supplement - Jun 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    styles the html as i modified w/my true fic counts script
+@author         小白雪花
+==/UserStyle== */
+@-moz-document domain("fanfiction.net") {
+    #list_output input[type="checkbox"] {
+        margin-right: 0.5em;
+    }
+    #list_output div:not(div:has(input:checked)) {
+        opacity: 0.35;
+        display: none;
+    }
+    #list_output div:not(div:has(input:checked)):hover {
+        opacity: 0.85;
+        transition: 0.3s;
+    }
+    #list_output div:has(input:checked) strong {
+        color: black;
+    }
+    #list_output .margin-gap {
+        margin-bottom: 0.5em;
+    }
+    #list_output .groupie {
+        background-color: #cef6ff;
+        border: 1px solid grey;
+    }
+    #list_output .groupie strong {
+        float: right;
+        margin-right: 1em;
+    }
+}
