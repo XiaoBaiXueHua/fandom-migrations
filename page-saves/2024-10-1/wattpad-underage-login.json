@@ -1,52 +1,28 @@
 {
 	"anime": [
 	  [
-		"inuyasha",
-		3484
-	  ],
-	  [
-		"cardcaptorsakura",
-		214
-	  ],
-	  [
 		"sailormoon",
 		2271
 	  ],
 	  [
-		"fullmetalalchemist",
-		2303
+		"spyxfamily",
+		1042
 	  ],
 	  [
-		"yoi",
-		2241
+		"inuyasha",
+		3484
+	  ],
+	  [
+		"blueexorcist",
+		2726
 	  ],
 	  [
 		"bleach",
 		6178
 	  ],
 	  [
-		"souleater",
-		6031
-	  ],
-	  [
-		"rwby",
-		23017
-	  ],
-	  [
-		"haikyuu",
-		52014
-	  ],
-	  [
-		"madokamagica",
-		729
-	  ],
-	  [
 		"fruitsbasket",
 		1373
-	  ],
-	  [
-		"princeoftennis",
-		501
 	  ],
 	  [
 		"jjba",
@@ -57,54 +33,66 @@
 		48541
 	  ],
 	  [
+		"fullmetalalchemist",
+		2303
+	  ],
+	  [
+		"cardcaptorsakura",
+		214
+	  ],
+	  [
+		"attackontitan",
+		28490
+	  ],
+	  [
+		"rwby",
+		23017
+	  ],
+	  [
+		"souleater",
+		6031
+	  ],
+	  [
 		"mha",
 		99189
 	  ],
 	  [
-		"blueexorcist",
-		2726
+		"haikyuu",
+		52014
 	  ],
 	  [
-		"sxf",
-		85
+		"princeoftennis",
+		501
 	  ],
 	  [
 		"naruto",
 		57019
 	  ],
 	  [
-		"attackontitan",
-		28490
+		"yurionice",
+		5882
+	  ],
+	  [
+		"hetalia",
+		30629
+	  ],
+	  [
+		"madokamagica",
+		729
 	  ]
 	],
 	"cartoon": [
-	  [
-		"invaderzim",
-		1810
-	  ],
-	  [
-		"teentitans",
-		4867
-	  ],
-	  [
-		"voltron",
-		17331
-	  ],
-	  [
-		"powerpuffgirls",
-		912
-	  ],
 	  [
 		"dannyphantom",
 		3323
 	  ],
 	  [
-		"stevenuniverse",
-		13261
+		"atla",
+		4368
 	  ],
 	  [
-		"svfoe",
-		32
+		"vld",
+		4097
 	  ],
 	  [
 		"kimpossible",
@@ -115,36 +103,52 @@
 		15256
 	  ],
 	  [
-		"miraculousladybug",
-		14492
-	  ],
-	  [
-		"shera",
-		1613
-	  ],
-	  [
-		"atla",
-		4368
-	  ],
-	  [
-		"lok",
-		1115
-	  ],
-	  [
-		"vld",
-		4097
-	  ],
-	  [
-		"mlp",
-		13901
+		"daria",
+		230
 	  ],
 	  [
 		"totaldrama",
 		5555
 	  ],
 	  [
-		"daria",
-		230
+		"powerpuffgirls",
+		912
+	  ],
+	  [
+		"mlp",
+		13901
+	  ],
+	  [
+		"voltron",
+		17331
+	  ],
+	  [
+		"svtfoe",
+		2719
+	  ],
+	  [
+		"stevenuniverse",
+		13261
+	  ],
+	  [
+		"invaderzim",
+		1810
+	  ],
+	  [
+		"shera",
+		1613
+	  ],
+	  [
+		"miraculousladybug",
+		14492
+	  ],
+	  [
+		"lok",
+		1115
+	  ],
+	  [
+		"teentitans",
+		4867
 	  ]
 	],
 	"tv": [
@@ -153,36 +157,12 @@
 		2788
 	  ],
 	  [
-		"agentcarter",
-		530
-	  ],
-	  [
-		"xfiles",
-		216
-	  ],
-	  [
-		"glee",
-		9163
-	  ],
-	  [
-		"jessicajones",
-		311
-	  ],
-	  [
 		"ouat",
 		10114
 	  ],
 	  [
-		"sherlock",
-		15294
-	  ],
-	  [
-		"daredevil",
-		1484
-	  ],
-	  [
-		"wandavision",
-		1003
+		"glee",
+		9163
 	  ],
 	  [
 		"agentsofshield",
@@ -193,86 +173,98 @@
 		901
 	  ],
 	  [
-		"doctorwho",
-		15345
+		"daredevil",
+		1484
+	  ],
+	  [
+		"wandavision",
+		1003
 	  ],
 	  [
 		"merlin",
 		7074
 	  ],
 	  [
+		"sherlock",
+		15294
+	  ],
+	  [
+		"jessicajones",
+		311
+	  ],
+	  [
+		"xfiles",
+		216
+	  ],
+	  [
 		"stargate",
 		430
 	  ],
 	  [
-		"supernatural winchester",
-		25137
+		"thewalkingdead",
+		14794
+	  ],
+	  [
+		"doctorwho",
+		15345
 	  ],
 	  [
 		"teenwolf",
 		33447
 	  ],
 	  [
-		"thewalkingdead",
-		14794
+		"agentcarter",
+		530
+	  ],
+	  [
+		"supernatural winchester",
+		25137
 	  ]
 	],
 	"game": [
 	  [
-		"legendofzelda",
-		4029
-	  ],
-	  [
-		"honkaiimpact3rd",
-		762
-	  ],
-	  [
-		"kingdomhearts",
-		3405
-	  ],
-	  [
-		"overwatch",
-		6197
-	  ],
-	  [
-		"fnaf",
-		51737
-	  ],
-	  [
 		"dragonage",
 		989
-	  ],
-	  [
-		"honkaistarrail",
-		1283
-	  ],
-	  [
-		"mysticmessenger",
-		4442
-	  ],
-	  [
-		"leagueoflegends",
-		2652
 	  ],
 	  [
 		"pokemon",
 		40306
 	  ],
 	  [
-		"sonic",
-		16292
+		"honkaistarrail",
+		1283
 	  ],
 	  [
-		"danganronpa",
-		35338
+		"persona",
+		2661
+	  ],
+	  [
+		"fnaf",
+		51737
+	  ],
+	  [
+		"overwatch",
+		6197
+	  ],
+	  [
+		"fireemblem",
+		2949
+	  ],
+	  [
+		"mysticmessenger",
+		4442
+	  ],
+	  [
+		"sonic",
+		16292
 	  ],
 	  [
 		"minecraft",
 		41502
 	  ],
 	  [
-		"fireemblem",
-		2949
+		"honkaiimpact3rd",
+		762
 	  ],
 	  [
 		"finalfantasy",
@@ -287,12 +279,24 @@
 		23257
 	  ],
 	  [
-		"persona",
-		2661
+		"danganronpa",
+		35338
 	  ],
 	  [
 		"undertale",
 		50607
+	  ],
+	  [
+		"leagueoflegends",
+		2652
+	  ],
+	  [
+		"legendofzelda",
+		4029
+	  ],
+	  [
+		"kingdomhearts",
+		3405
 	  ]
 	],
 	"bandom": [
@@ -301,126 +305,114 @@
 		9359
 	  ],
 	  [
-		"mychemicalromance",
-		13647
-	  ],
-	  [
 		"twentyonepilots",
 		16682
+	  ],
+	  [
+		"onedirection",
+		128115
 	  ],
 	  [
 		"falloutboy",
 		7939
 	  ],
 	  [
-		"onedirection",
-		128115
+		"mychemicalromance",
+		13647
 	  ]
 	],
 	"kpop": [
 	  [
-		"exo",
-		59286
-	  ],
-	  [
 		"twice",
 		28960
-	  ],
-	  [
-		"txt",
-		17858
 	  ],
 	  [
 		"shinee",
 		6391
 	  ],
 	  [
-		"got7",
-		28874
-	  ],
-	  [
-		"loona",
-		4710
-	  ],
-	  [
-		"nct",
-		43819
+		"straykids",
+		44069
 	  ],
 	  [
 		"monstax",
 		9517
 	  ],
 	  [
-		"redvelvet",
-		16384
-	  ],
-	  [
 		"Kpop",
 		177073
 	  ],
 	  [
-		"blackpink",
-		46936
+		"txt",
+		17858
 	  ],
 	  [
-		"straykids",
-		44069
+		"redvelvet",
+		16384
+	  ],
+	  [
+		"bts",
+		329566
+	  ],
+	  [
+		"exo",
+		59286
+	  ],
+	  [
+		"nct",
+		43819
 	  ],
 	  [
 		"seventeen",
 		31603
 	  ],
 	  [
-		"bts",
-		329566
+		"loona",
+		4710
+	  ],
+	  [
+		"blackpink",
+		46936
+	  ],
+	  [
+		"got7",
+		28874
 	  ]
 	],
 	"movie": [
 	  [
-		"guardiansofthegalaxy",
-		2176
-	  ],
-	  [
-		"starwars",
-		26672
-	  ],
-	  [
 		"avengers",
 		62097
-	  ],
-	  [
-		"thor",
-		22652
 	  ],
 	  [
 		"marvel",
 		81736
 	  ],
 	  [
+		"thor",
+		22652
+	  ],
+	  [
+		"guardiansofthegalaxy",
+		2176
+	  ],
+	  [
 		"captainamerica",
 		25266
+	  ],
+	  [
+		"starwars",
+		26672
 	  ]
 	],
 	"book": [
-	  [
-		"thehobbit",
-		3157
-	  ],
-	  [
-		"lotr",
-		5253
-	  ],
-	  [
-		"gameofthrones",
-		6061
-	  ],
 	  [
 		"hoo",
 		13992
 	  ],
 	  [
-		"hungergames",
-		14749
+		"gameofthrones",
+		6061
 	  ],
 	  [
 		"pjo",
@@ -431,46 +423,50 @@
 		327
 	  ],
 	  [
-		"twilight",
-		29256
-	  ],
-	  [
 		"harrypotter",
 		160320
 	  ],
 	  [
+		"thehobbit",
+		3157
+	  ],
+	  [
+		"hungergames",
+		14749
+	  ],
+	  [
 		"warriorcats",
 		27984
+	  ],
+	  [
+		"lotr",
+		5253
+	  ],
+	  [
+		"twilight",
+		29256
 	  ]
 	],
 	"misc": [
 	  [
-		"wwe",
-		11963
-	  ],
-	  [
-		"danandphil",
-		11699
+		"roosterteeth",
+		1977
 	  ],
 	  [
 		"lesmiserables",
 		974
 	  ],
 	  [
-		"roosterteeth",
-		1977
-	  ],
-	  [
-		"youtube",
-		62247
-	  ],
-	  [
-		"homestuck",
-		13565
-	  ],
-	  [
 		"vocaloid",
 		13098
+	  ],
+	  [
+		"danandphil",
+		11699
+	  ],
+	  [
+		"hermitcraft",
+		3756
 	  ],
 	  [
 		"dreamsmp",
@@ -481,12 +477,24 @@
 		328
 	  ],
 	  [
-		"hermitcraft",
-		3756
-	  ],
-	  [
 		"hamilton",
 		21260
+	  ],
+	  [
+		"wwe",
+		11963
+	  ],
+	  [
+		"homestuck",
+		13565
+	  ],
+	  [
+		"youtube",
+		62247
+	  ],
+	  [
+		"hololive",
+		1206
 	  ]
 	]
   }

@@ -72,6 +72,7 @@ function auto() {
 					console.debug(`%c [${categy}]`, `color: ${cat.color}`, ` ${fandom}: ${res.toLocaleString()}`);
 					// resultArray.push([fandom, res]);
 					results[categy].push([fandom, res]);
+					tmpDiv.remove();
 				} else {
 					console.error(`oh no the response was not okay. :( probably just rate-limited... status: ${response.status}\n`, response);
 				}
