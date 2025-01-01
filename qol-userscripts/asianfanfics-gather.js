@@ -1,6 +1,6 @@
 var results = {};
 var found = [];
-var bands = ["bts", "exo", "shinee", "superjunior", "redvelvet", "twice", "blackpink", "nct", "straykids", "txt", "got7", "monstax", "loona"]; // array of bands getting tracked
+var bands = ["bts", "exo", "shinee", "superjunior", "redvelvet", "twice", "blackpink", "nct", "straykids", "txt", "got7", "monstax", "loona", "seventeen"]; // array of bands getting tracked
 var backup_listing = document.createElement(`div`);
 backup_listing.id = `asianfanfics-export-${new Date}`;
 
