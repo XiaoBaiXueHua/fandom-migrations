@@ -15,6 +15,7 @@ function nya() {
 	}
 	console.log(`%ctotal as of today: ${total}`, "color: red");
 	console.log(`total for this quarter: ${quarterly}`);
+	console.log(`storyJson:`, storyJson);
 }
 
 nya();
