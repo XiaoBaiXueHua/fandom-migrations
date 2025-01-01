@@ -96,15 +96,24 @@ function migrationsHelper() {
 		// hcb.addEventListener("click", parentChecked)
 		// l.insertAdjacentElement("afterbegin", hcb);
 		// pick out the fandoms for each header. could've done them all at once like this, but i want to have a listener that's entangled w/the big group too so like. yee
-		const fandoms = l.querySelectorAll(`li:has(> a.tag)`);
-		for (const f of fandoms) {
-			var name = f.innerText;
+		// const fandoms = l.querySelectorAll(`li:has(> a.tag)`);
+		const fandoms = l.querySelectorAll(`li > a.tag`);
+		for (const f of fandoms) { // the f is the 
+			var name = f.innerText; // doing it this way instead of grabbing the a el itself is a performance thing
+			var p = f.parentElement;
 			// the number is in parentheses n digits Only and is also the Last Digit Parentheses Thing
-			const count = name.match(/\(\d+\)/);
+			// const count = name.match(/\(\d+\)/);
 
-			// this bit's honestly more relevant for working with western tv shows like supernatural. basically it ensures we Only trim off the works count
-			const fanName = name.replace(count[count.length - 1], "").trim();
+			// // this bit's honestly more relevant for working with western tv shows like supernatural. basically it ensures we Only trim off the works count
+			let fanName = name;
+			try {
+				fanName = name.replace(count[count.length - 1], "").trim();
+			} catch (e) {
+				// should only happen when there's no disambiguators
+			}
+			// // const 
 			const cssName = fanName.replace(/\W+/g, "-");
+			// const cssName = name.replace(/\W+/g,"-");
 			// console.log(name);
 			// checkbox for each fandom
 			const cb = document.createElement("input");
@@ -113,11 +122,11 @@ function migrationsHelper() {
 			cb.checked = catList.includes(fanName); // since in this case we're only using this script to only make the checked-off fandoms show, this is Fine
 			if (cb.checked) {
 				// causing crazy slowdown on my computer(!!!) if i just let this run wild on ao3, so maybe this will help
-				f.innerHTML = `<label for="${cssName}">${f.innerHTML}</label>`;
+			p.innerHTML = `<label for="${cssName}">${p.innerHTML}</label>`;
 			}
 
 
-			f.insertAdjacentElement("afterbegin", cb);
+			p.insertAdjacentElement("afterbegin", cb);
 
 			function checkListen() {
 				// has to be a local function in order to be able to use the fandom name n stuff
