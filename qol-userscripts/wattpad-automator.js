@@ -44,7 +44,7 @@ function auto() {
 		book: new Array(),
 		misc: new Array()
 	}
-	const delay = 500; // open a new page every 0.5 seconds to help prevent 429 statuses
+	const delay = 1000; // open a new page every 0.5 seconds to help prevent 429 statuses
 	const tmpDiv = document.createElement("div");
 	const numFandoms = wpList.length;
 	for (var i = 0; i <= numFandoms; i++) {
@@ -58,20 +58,22 @@ function auto() {
 		let categy = categorize(fandom);
 		let cat = wpObj[categy];
 		async function hoo() {
+			const f = fandom, c = categy; // bind these
 			// local function
 			if (fandom == undefined) {
 				// console.log(resultArray);
+				console.log(`finished sending all the requests!`);
 				// console.log(results)
-				setTimeout(() => { console.log(`final results:\n`, results)}, (wpList+50)*3500) // and then we wait to drop the final obj at the bottom. i hope.
+				// setTimeout(() => { console.log(`final results:\n`, results)}, (numFandoms+50)*delay) // and then we wait to drop the final obj at the bottom. i hope.
 			} else {
-				const response = await fetch(new Request(`/search/%23${fandom}`));
+				const response = await fetch(new Request(`/search/%23${f}`));
 				if (response.ok) {
 					const txt = await response.text();
 					tmpDiv.innerHTML = txt;
 					const res = getResults(tmpDiv);
-					console.debug(`%c [${categy}]`, `color: ${cat.color}`, ` ${fandom}: ${res.toLocaleString()}`);
+					console.debug(`%c [${c}]`, `color: ${cat.color}`, ` ${f}: ${res.toLocaleString()}`);
 					// resultArray.push([fandom, res]);
-					results[categy].push([fandom, res]);
+					results[c].push({[f]: res}); // push it as an object
 					tmpDiv.remove();
 				} else {
 					console.error(`oh no the response was not okay. :( probably just rate-limited... status: ${response.status}\n`, response);
