@@ -44,7 +44,7 @@ function auto() {
 		book: new Array(),
 		misc: new Array()
 	}
-
+	const delay = 500; // open a new page every 0.5 seconds to help prevent 429 statuses
 	const tmpDiv = document.createElement("div");
 	const numFandoms = wpList.length;
 	for (var i = 0; i <= numFandoms; i++) {
@@ -79,8 +79,12 @@ function auto() {
 			}
 
 		}
-		setTimeout(hoo, 1500); // open a new page every 1.5 seconds to help prevent 429 statuses
+		setTimeout(hoo, i * delay); 
 	}
+
+	setTimeout(() => {
+		console.log(`final results (FOR REAL THIS TIME):\n`, results)
+	}, delay * (numFandoms + 5));
 	// console.log(`results after the loop: \n`, results); // doing it this way also doesn't work bc of the async lol
 }
 auto();

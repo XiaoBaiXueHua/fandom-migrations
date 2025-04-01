@@ -70,7 +70,7 @@ for (const fandom of fandomList) {
 					span.innerHTML += ` [<strong class="trueTotal">${totalFics.toLocaleString()}</strong>]`;
 				})
 			});
-		}, (catList.length * 25)) // for each fandom getting tracked, wait 25ms longer between sending requests
+		}, (i * catList.length * 25)) // for each fandom getting tracked, wait 25ms longer between sending requests
 		
 	}
 	checkbox.addEventListener("click", () => {
