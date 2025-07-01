@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           www.fimfiction.net/statistics
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    fimfiction adder thing
+@author         小白雪花
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.fimfiction.net/statistics") {
+    #progress-watcher {
+        .chart {
+            max-height: 16em;
+            overflow-y: auto;
+            section {
+                border-bottom: thin solid;
+                &:first-child {
+                    p:first-child {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
