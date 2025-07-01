@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           wattpad.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    styler for the wattpad automator
+@author         小白雪花
+==/UserStyle== */
+@-moz-document domain("wattpad.com") {
+    #exporter {
+        &,
+        * {
+            box-sizing: border-box;
+        }
+        button {
+            font-size: 3em;
+            padding: 1em;
+            display: block;
+            margin: 1em auto;
+        }
+    }
+    #progression-watcher {
+        padding: 1em;
+        margin: 1em;
+        max-height: 12em;
+        position: relative;
+        overflow-y: auto;
+        
+        p {
+            margin: 0;
+            margin-bottom: 0.25em;
+            font-size: 14pt;
+            width: 100%;
+            display: flex;
+            strong {
+                width: 33%;
+            }
+        }
+        pre {
+            font-family: monospace;
+            color: black;
+        }
+    }
+    textarea {
+        margin: 1em auto;
+        display: block;
+        min-width: 80%;
+        width: 100%;
+        min-height: 8em;
+        resize: none;
+        font-family: monospace;
+    }
+}

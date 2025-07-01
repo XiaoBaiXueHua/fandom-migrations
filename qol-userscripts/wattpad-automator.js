@@ -105,7 +105,8 @@ function auto() {
 					const p = document.createElement(`p`);
 					p.innerHTML = `<strong>${f}:</strong> ${res.toLocaleString()}`;
 					p.setAttribute(`style`, `color: ${cat.color}`);
-					progression.appendChild(p);
+					// progression.appendChild(p);
+					progression.insertAdjacentElement(`afterbegin`, p); // makes it so that the old ones get pushed down
 					// resultArray.push([fandom, res]);
 					results[c].push({[f]: res}); // push it as an object
 					tmpDiv.remove();
