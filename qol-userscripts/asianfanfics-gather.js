@@ -6,8 +6,8 @@
 // @author		小白雪花
 // @match		https://www.asianfanfics.com/**
 // @icon		https://www.google.com/s2/favicons?sz=64&domain=asianfanfics.com
-// @downloadURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/asianfanfics-gather.js
-// @updateURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/asianfanfics-gather.js
+// @downloadURL	https://raw.githubusercontent.com/XiaoBaiXueHua/fandom-migrations/qol-userscripts/asianfanfics-gather.js
+// @updateURL	https://raw.githubusercontent.com/XiaoBaiXueHua/fandom-migrations/qol-userscripts/asianfanfics-gather.js
 // @grant		none
 // ==/UserScript==
 
