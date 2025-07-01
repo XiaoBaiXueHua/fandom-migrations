@@ -21,7 +21,7 @@ backup_listing.id = `asianfanfics-export-${new Date}`;
 
 // function to loop through the els to read what they are
 function ooo(el, i) {
-	backup_listing.innerHTML += el.querySelector(`.tags__container`).innerHTML;
+	backup_listing.innerHTML += `<!-- Page ${i} -->\n${el.querySelector(`.tags__container`).innerHTML}`;
 	const sps = el.querySelectorAll(`.tags__container > span`);
 	for (const s of sps) {
 		const a = s.querySelector(`a`);
