@@ -1,3 +1,18 @@
+// ==UserScript==
+// @name		AsianFanfics Gatherer
+// @namespace	https://sincerelyandyourstruly.neocities.org
+// @version		1.0
+// @description	gathers all the asianfanfics stuff
+// @author		小白雪花
+// @match		https://www.asianfanfics.com/**
+// @icon		https://www.google.com/s2/favicons?sz=64&domain=asianfanfics.com
+// @downloadURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/asianfanfics-gather.js
+// @updateURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/asianfanfics-gather.js
+// @grant		none
+// ==/UserScript==
+
+// const button =
+
 var results = {};
 var found = [];
 var bands = ["bts", "exo", "shinee", "superjunior", "redvelvet", "twice", "blackpink", "nct", "straykids", "txt", "got7", "monstax", "loona", "seventeen"]; // array of bands getting tracked
@@ -50,5 +65,9 @@ async function fish() {
 	anchor.click();
 	document.body.removeChild(anchor); // remove the link now that our downloads are done
 }
-fish();
 
+const expButton = document.createElement(`button`);
+expButton.innerHTML = `<a href="#">Export Tags</a>`;
+expButton.addEventListener("click", fish);
+
+document.querySelector(`#advanced-search form`).appendChild(expButton);
