@@ -6,6 +6,63 @@
 @author         小白雪花
 ==/UserStyle== */
 @-moz-document domain("fanfiction.net") {
+    table {
+        max-width: 100%!important;
+    }
+    .lc-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #list_output {
+        &,
+        * {
+            box-sizing: border-box;
+        }
+        max-width: 90vw;
+        table,
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
+            display: block;
+        }
+
+        th,
+        td {
+            > div {
+                position: relative;
+                background-color: white;
+                /* display: grid;
+                grid-template-columns: 2em 2fr 3fr; */
+                span,
+                a, input {
+                    position: relative;
+                    z-index: 2;
+                    background-color: inherit;
+                }
+                span {
+                    float: right;
+                    font-family: monospace;
+                    font-size: 1.2em;
+                    margin-right: 15%;
+                    padding: 0 1ch;
+                }
+                &:hover {
+                    background-color: lightgrey;
+                }
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    border-bottom: 1px solid;
+                    width: 100%;
+                    top: 50%;
+                    max-height: 1px;
+                }
+            }
+        }
+    }
     #list_output input[type="checkbox"] {
         margin-right: 0.5em;
     }
@@ -26,9 +83,12 @@
     #list_output .groupie {
         background-color: #cef6ff;
         border: 1px solid grey;
+        max-width: 90vw;
+        &:hover {
+            background-color: lightblue;
+        }
     }
-    #list_output .groupie strong {
-        float: right;
-        margin-right: 1em;
+    #list_output .groupie span {
+        margin-right: 0;
     }
 }

@@ -124,14 +124,12 @@
 		"Final Fantasy XII",
 		"Final Fantasy XV",
 		"Mystic Messenger",
-		"Dissidia:Final Fantasy",
 		"Final Fantasy XIV",
 		"Final Fantasy XIII-2",
 		"Final Fantasy Versus XIII",
 		"Final Fantasy XI",
 		"Final Fantasy Agito XIII",
 		"Honkai Impact 3rd",
-		"Final Fantasy Tactics A2:Grimoire of the Rift",
 		"Final Fantasy XVI",
 		"Final Fantasy Brave Exvius",
 		"Five Nights at Freddy's",
@@ -150,7 +148,12 @@
 		"Final Fantasy Tactics A2: Grimoire of the Rift",
 		"Hatsune Miku: Colorful Stage!",
 		"Final Fantasy: Record Keeper",
-		"Final Fantasy: The 4 Heroes of Light"
+		"Final Fantasy: The 4 Heroes of Light",
+		"Danganronpa",
+		"Baldur's Gate",
+		"Phoenix Wright: Ace Attorney",
+		"World Ends With You",
+		"Five Nights at Freddy's"
 	],
 	"misc": [
 		"Homestuck",
@@ -234,6 +237,8 @@
 		"Star Trek: Discovery",
 		"Star Trek: Picard",
 		"Star Trek: Strange New Worlds",
+		"StarTrek: Deep Space Nine",
+		"StarTrek: Other",
 		"Untamed"
 	]
 }
