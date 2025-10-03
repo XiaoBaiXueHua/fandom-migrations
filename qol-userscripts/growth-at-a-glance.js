@@ -6,8 +6,6 @@
 // @author		小白雪花
 // @match		https://archiveofourown.org/media/**/fandoms
 // @icon		https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
-// @downloadURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/
-// @updateURL	https://raw.githubusercontent.com/XiaoBaiXueHua/misc-userscripts/main/
 // @grant		none
 // ==/UserScript==
 
