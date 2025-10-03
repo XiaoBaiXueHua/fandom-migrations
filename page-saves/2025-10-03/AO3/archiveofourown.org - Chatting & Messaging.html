@@ -1,0 +1,1088 @@
+<div>
+  <h2 class="heading"> 1 - 20 of 69,573 Works in <a class="tag" href="/tags/Chatting%20*a*%20Messaging">Chatting &amp; Messaging</a>
+  </h2>
+  <form class="narrow-hidden filters" id="work-filters" action="/works" accept-charset="UTF-8" method="get">
+    <h3 class="landmark heading">Filters</h3>
+    <fieldset>
+      <legend>Filter results:</legend>
+      <dl>
+        <dt class="landmark">Submit</dt>
+        <dd class="submit actions"><input type="submit" name="commit" value="Sort and Filter"></dd>
+        <dt class="sort">
+          <label for="work_search_sort_column">Sort by</label>
+        </dt>
+        <dd class="sort">
+          <select name="work_search[sort_column]" id="work_search_sort_column">
+            <option value="authors_to_sort_on">Creator</option>
+            <option value="title_to_sort_on">Title</option>
+            <option value="created_at">Date Posted</option>
+            <option selected="selected" value="revised_at">Date Updated</option>
+            <option value="word_count">Word Count</option>
+            <option value="hits">Hits</option>
+            <option value="kudos_count">Kudos</option>
+            <option value="comments_count">Comments</option>
+            <option value="bookmarks_count">Bookmarks</option>
+          </select>
+        </dd>
+        <dt class="include heading">
+          <h4 class="heading"> Include </h4>
+          <a class="help symbol question modal modal-attached" title="Work filters include tags" href="/help/work-filters-include-tags.html" aria-controls="modal"><span class="symbol question"><span>?</span></span></a>
+        </dt>
+        <dd class="include tags group">
+          <dl>
+            <dt id="toggle_include_rating_tags" class="filter-toggle rating tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_rating_tags">
+                <span class="landmark">Include </span>Ratings </button></dt>
+            <dd id="include_rating_tags" class="expandable rating tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_rating_ids_11">
+                    <input type="radio" name="include_work_search[rating_ids][]" id="include_work_search_rating_ids_11" value="11">
+                    <span class="indicator" aria-hidden="true"></span><span>Teen And Up Audiences (26111)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_rating_ids_13">
+                    <input type="radio" name="include_work_search[rating_ids][]" id="include_work_search_rating_ids_13" value="13">
+                    <span class="indicator" aria-hidden="true"></span><span>Explicit (14662)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_rating_ids_10">
+                    <input type="radio" name="include_work_search[rating_ids][]" id="include_work_search_rating_ids_10" value="10">
+                    <span class="indicator" aria-hidden="true"></span><span>General Audiences (12781)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_rating_ids_12">
+                    <input type="radio" name="include_work_search[rating_ids][]" id="include_work_search_rating_ids_12" value="12">
+                    <span class="indicator" aria-hidden="true"></span><span>Mature (9216)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_rating_ids_9">
+                    <input type="radio" name="include_work_search[rating_ids][]" id="include_work_search_rating_ids_9" value="9">
+                    <span class="indicator" aria-hidden="true"></span><span>Not Rated (6803)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_archive_warning_tags" class="filter-toggle warning tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_archive_warning_tags">
+                <span class="landmark">Include </span>Warnings </button></dt>
+            <dd id="include_archive_warning_tags" class="expandable warning tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_16">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_16" value="16">
+                    <span class="indicator" aria-hidden="true"></span><span>No Archive Warnings Apply (45395)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_14">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_14" value="14">
+                    <span class="indicator" aria-hidden="true"></span><span>Creator Chose Not To Use Archive Warnings (22682)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_17">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_17" value="17">
+                    <span class="indicator" aria-hidden="true"></span><span>Graphic Depictions Of Violence (2291)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_20">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_20" value="20">
+                    <span class="indicator" aria-hidden="true"></span><span>Underage Sex (1536)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_18">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_18" value="18">
+                    <span class="indicator" aria-hidden="true"></span><span>Major Character Death (1242)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_archive_warning_ids_19">
+                    <input type="checkbox" name="include_work_search[archive_warning_ids][]" id="include_work_search_archive_warning_ids_19" value="19">
+                    <span class="indicator" aria-hidden="true"></span><span>Rape/Non-Con (804)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_category_tags" class="filter-toggle category tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_category_tags">
+                <span class="landmark">Include </span>Categories </button></dt>
+            <dd id="include_category_tags" class="expandable category tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_category_ids_23">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_23" value="23">
+                    <span class="indicator" aria-hidden="true"></span><span>M/M (42351)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_category_ids_22">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_22" value="22">
+                    <span class="indicator" aria-hidden="true"></span><span>F/M (15702)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_category_ids_21">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_21" value="21">
+                    <span class="indicator" aria-hidden="true"></span><span>Gen (11802)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_category_ids_116">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_116" value="116">
+                    <span class="indicator" aria-hidden="true"></span><span>F/F (10637)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_category_ids_2246">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_2246" value="2246">
+                    <span class="indicator" aria-hidden="true"></span><span>Multi (9085)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_category_ids_24">
+                    <input type="checkbox" name="include_work_search[category_ids][]" id="include_work_search_category_ids_24" value="24">
+                    <span class="indicator" aria-hidden="true"></span><span>Other (3133)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_fandom_tags" class="filter-toggle fandom tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_fandom_tags">
+                <span class="landmark">Include </span>Fandoms </button></dt>
+            <dd id="include_fandom_tags" class="expandable fandom tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_fandom_ids_87784924">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_87784924" value="87784924">
+                    <span class="indicator" aria-hidden="true"></span><span>僕のヒーローアカデミア | Boku no Hero Academia | My Hero Academia (Anime &amp; Manga) (3676)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_1002903">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_1002903" value="1002903">
+                    <span class="indicator" aria-hidden="true"></span><span>방탄소년단 | Bangtan Boys | BTS (2637)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_136512">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_136512" value="136512">
+                    <span class="indicator" aria-hidden="true"></span><span>Harry Potter - J. K. Rowling (2441)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_758208">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_758208" value="758208">
+                    <span class="indicator" aria-hidden="true"></span><span>Haikyuu!! (2087)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_117807">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_117807" value="117807">
+                    <span class="indicator" aria-hidden="true"></span><span>Homestuck (1988)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_414093">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_414093" value="414093">
+                    <span class="indicator" aria-hidden="true"></span><span>Marvel Cinematic Universe (1785)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_42817852">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_42817852" value="42817852">
+                    <span class="indicator" aria-hidden="true"></span><span>原神 | Genshin Impact (Video Game) (1274)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_133185">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_133185" value="133185">
+                    <span class="indicator" aria-hidden="true"></span><span>Sherlock (TV) (1211)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_19017606">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_19017606" value="19017606">
+                    <span class="indicator" aria-hidden="true"></span><span>Stray Kids (Band) (1197)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_fandom_ids_2692">
+                    <input type="checkbox" name="include_work_search[fandom_ids][]" id="include_work_search_fandom_ids_2692" value="2692">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Work (1169)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_character_tags" class="filter-toggle character tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_character_tags">
+                <span class="landmark">Include </span>Characters </button></dt>
+            <dd id="include_character_tags" class="expandable character tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_character_ids_2927">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_2927" value="2927">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Characters (2622)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_3741113">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_3741113" value="3741113">
+                    <span class="indicator" aria-hidden="true"></span><span>Midoriya Izuku (2312)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_3741110">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_3741110" value="3741110">
+                    <span class="indicator" aria-hidden="true"></span><span>Bakugou Katsuki (2154)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_1396993">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_1396993" value="1396993">
+                    <span class="indicator" aria-hidden="true"></span><span>Jeon Jungkook (2053)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_997967">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_997967" value="997967">
+                    <span class="indicator" aria-hidden="true"></span><span>Min Yoongi | Suga (1948)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_4430519">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_4430519" value="4430519">
+                    <span class="indicator" aria-hidden="true"></span><span>Park Jimin (BTS) (1932)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_997964">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_997964" value="997964">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Taehyung | V (1918)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_479641">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_479641" value="479641">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Female Character(s) (1814)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_18954756">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_18954756" value="18954756">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Namjoon | RM (1780)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_character_ids_997962">
+                    <input type="checkbox" name="include_work_search[character_ids][]" id="include_work_search_character_ids_997962" value="997962">
+                    <span class="indicator" aria-hidden="true"></span><span>Jung Hoseok | J-Hope (1730)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_relationship_tags" class="filter-toggle relationship tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_relationship_tags">
+                <span class="landmark">Include </span>Relationships </button></dt>
+            <dd id="include_relationship_tags" class="expandable relationship tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_relationship_ids_267347">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_267347" value="267347">
+                    <span class="indicator" aria-hidden="true"></span><span>Minor or Background Relationship(s) (1798)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_1110">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_1110" value="1110">
+                    <span class="indicator" aria-hidden="true"></span><span>Sirius Black/Remus Lupin (1128)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_604125">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_604125" value="604125">
+                    <span class="indicator" aria-hidden="true"></span><span>Other Relationship Tags to Be Added (1124)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_37467886">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_37467886" value="37467886">
+                    <span class="indicator" aria-hidden="true"></span><span>Evan "Buck" Buckley/Eddie Diaz (9-1-1 TV) (849)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_4918711">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_4918711" value="4918711">
+                    <span class="indicator" aria-hidden="true"></span><span>Bakugou Katsuki/Kirishima Eijirou (804)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_2467008">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_2467008" value="2467008">
+                    <span class="indicator" aria-hidden="true"></span><span>Jeon Jungkook/Kim Taehyung | V (720)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_11006">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_11006" value="11006">
+                    <span class="indicator" aria-hidden="true"></span><span>Sherlock Holmes/John Watson (702)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_19266044">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_19266044" value="19266044">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Namjoon | RM/Kim Seokjin | Jin (668)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_5672">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_5672" value="5672">
+                    <span class="indicator" aria-hidden="true"></span><span>Castiel/Dean Winchester (596)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_relationship_ids_18827">
+                    <input type="checkbox" name="include_work_search[relationship_ids][]" id="include_work_search_relationship_ids_18827" value="18827">
+                    <span class="indicator" aria-hidden="true"></span><span>James Potter/Lily Evans Potter (588)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_include_freeform_tags" class="filter-toggle freeform tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="include_freeform_tags">
+                <span class="landmark">Include </span>Additional Tags </button></dt>
+            <dd id="include_freeform_tags" class="expandable freeform tags hidden">
+              <ul>
+                <li>
+                  <label for="include_work_search_freeform_ids_97914">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_97914" value="97914">
+                    <span class="indicator" aria-hidden="true"></span><span>Texting (35688)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_106225">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_106225" value="106225">
+                    <span class="indicator" aria-hidden="true"></span><span>Chatting &amp; Messaging (23868)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_110">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_110" value="110">
+                    <span class="indicator" aria-hidden="true"></span><span>Fluff (14672)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_128554">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_128554" value="128554">
+                    <span class="indicator" aria-hidden="true"></span><span>Sexting (12278)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_11175">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_11175" value="11175">
+                    <span class="indicator" aria-hidden="true"></span><span>Alternate Universe - Modern Setting (8378)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_176">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_176" value="176">
+                    <span class="indicator" aria-hidden="true"></span><span>Angst (6372)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_62">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_62" value="62">
+                    <span class="indicator" aria-hidden="true"></span><span>Humor (6003)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_3236">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_3236" value="3236">
+                    <span class="indicator" aria-hidden="true"></span><span>Crack (5918)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_604127">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_604127" value="604127">
+                    <span class="indicator" aria-hidden="true"></span><span>Other Additional Tags to Be Added (5851)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="include_work_search_freeform_ids_73112">
+                    <input type="checkbox" name="include_work_search[freeform_ids][]" id="include_work_search_freeform_ids_73112" value="73112">
+                    <span class="indicator" aria-hidden="true"></span><span>Alternate Universe - College/University (5637)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt class="autocomplete search">
+              <label for="work_search_other_tag_names_autocomplete">Other tags to include</label>
+            </dt>
+            <dd class="autocomplete search">
+              <ul class="autocomplete">
+                <li class="input"><input type="text" class="text" autocomplete="off" role="combobox" aria-expanded="true" aria-autocomplete="list" id="work_search_other_tag_names_autocomplete">
+                  <div class="autocomplete dropdown" style="display: none;"></div>
+                </li>
+              </ul><input class="autocomplete" data-autocomplete-method="/autocomplete/tag" data-autocomplete-hint-text="Start typing for suggestions!" data-autocomplete-no-results-text="(No suggestions found)" data-autocomplete-min-chars="1" data-autocomplete-searching-text="Searching..." type="text" name="work_search[other_tag_names]" id="work_search_other_tag_names" style="display: none;">
+            </dd>
+          </dl>
+        </dd>
+        <dt class="exclude heading">
+          <h4 class="heading"> Exclude </h4>
+          <a class="help symbol question modal modal-attached" title="Work filters exclude tags" href="/help/work-filters-exclude-tags.html" aria-controls="modal"><span class="symbol question"><span>?</span></span></a>
+        </dt>
+        <dd class="exclude tags group">
+          <dl>
+            <dt id="toggle_exclude_rating_tags" class="filter-toggle rating tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_rating_tags">
+                <span class="landmark">Exclude </span>Ratings </button></dt>
+            <dd id="exclude_rating_tags" class="expandable rating tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_rating_ids_11">
+                    <input type="checkbox" name="exclude_work_search[rating_ids][]" id="exclude_work_search_rating_ids_11" value="11">
+                    <span class="indicator" aria-hidden="true"></span><span>Teen And Up Audiences (26111)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_rating_ids_13">
+                    <input type="checkbox" name="exclude_work_search[rating_ids][]" id="exclude_work_search_rating_ids_13" value="13">
+                    <span class="indicator" aria-hidden="true"></span><span>Explicit (14662)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_rating_ids_10">
+                    <input type="checkbox" name="exclude_work_search[rating_ids][]" id="exclude_work_search_rating_ids_10" value="10">
+                    <span class="indicator" aria-hidden="true"></span><span>General Audiences (12781)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_rating_ids_12">
+                    <input type="checkbox" name="exclude_work_search[rating_ids][]" id="exclude_work_search_rating_ids_12" value="12">
+                    <span class="indicator" aria-hidden="true"></span><span>Mature (9216)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_rating_ids_9">
+                    <input type="checkbox" name="exclude_work_search[rating_ids][]" id="exclude_work_search_rating_ids_9" value="9">
+                    <span class="indicator" aria-hidden="true"></span><span>Not Rated (6803)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_archive_warning_tags" class="filter-toggle warning tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_archive_warning_tags">
+                <span class="landmark">Exclude </span>Warnings </button></dt>
+            <dd id="exclude_archive_warning_tags" class="expandable warning tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_16">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_16" value="16">
+                    <span class="indicator" aria-hidden="true"></span><span>No Archive Warnings Apply (45395)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_14">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_14" value="14">
+                    <span class="indicator" aria-hidden="true"></span><span>Creator Chose Not To Use Archive Warnings (22682)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_17">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_17" value="17">
+                    <span class="indicator" aria-hidden="true"></span><span>Graphic Depictions Of Violence (2291)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_20">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_20" value="20">
+                    <span class="indicator" aria-hidden="true"></span><span>Underage Sex (1536)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_18">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_18" value="18">
+                    <span class="indicator" aria-hidden="true"></span><span>Major Character Death (1242)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_archive_warning_ids_19">
+                    <input type="checkbox" name="exclude_work_search[archive_warning_ids][]" id="exclude_work_search_archive_warning_ids_19" value="19">
+                    <span class="indicator" aria-hidden="true"></span><span>Rape/Non-Con (804)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_category_tags" class="filter-toggle category tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_category_tags">
+                <span class="landmark">Exclude </span>Categories </button></dt>
+            <dd id="exclude_category_tags" class="expandable category tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_category_ids_23">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_23" value="23">
+                    <span class="indicator" aria-hidden="true"></span><span>M/M (42351)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_category_ids_22">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_22" value="22">
+                    <span class="indicator" aria-hidden="true"></span><span>F/M (15702)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_category_ids_21">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_21" value="21">
+                    <span class="indicator" aria-hidden="true"></span><span>Gen (11802)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_category_ids_116">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_116" value="116">
+                    <span class="indicator" aria-hidden="true"></span><span>F/F (10637)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_category_ids_2246">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_2246" value="2246">
+                    <span class="indicator" aria-hidden="true"></span><span>Multi (9085)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_category_ids_24">
+                    <input type="checkbox" name="exclude_work_search[category_ids][]" id="exclude_work_search_category_ids_24" value="24">
+                    <span class="indicator" aria-hidden="true"></span><span>Other (3133)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_fandom_tags" class="filter-toggle fandom tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_fandom_tags">
+                <span class="landmark">Exclude </span>Fandoms </button></dt>
+            <dd id="exclude_fandom_tags" class="expandable fandom tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_87784924">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_87784924" value="87784924">
+                    <span class="indicator" aria-hidden="true"></span><span>僕のヒーローアカデミア | Boku no Hero Academia | My Hero Academia (Anime &amp; Manga) (3676)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_1002903">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_1002903" value="1002903">
+                    <span class="indicator" aria-hidden="true"></span><span>방탄소년단 | Bangtan Boys | BTS (2637)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_136512">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_136512" value="136512">
+                    <span class="indicator" aria-hidden="true"></span><span>Harry Potter - J. K. Rowling (2441)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_758208">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_758208" value="758208">
+                    <span class="indicator" aria-hidden="true"></span><span>Haikyuu!! (2087)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_117807">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_117807" value="117807">
+                    <span class="indicator" aria-hidden="true"></span><span>Homestuck (1988)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_414093">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_414093" value="414093">
+                    <span class="indicator" aria-hidden="true"></span><span>Marvel Cinematic Universe (1785)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_42817852">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_42817852" value="42817852">
+                    <span class="indicator" aria-hidden="true"></span><span>原神 | Genshin Impact (Video Game) (1274)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_133185">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_133185" value="133185">
+                    <span class="indicator" aria-hidden="true"></span><span>Sherlock (TV) (1211)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_19017606">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_19017606" value="19017606">
+                    <span class="indicator" aria-hidden="true"></span><span>Stray Kids (Band) (1197)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_fandom_ids_2692">
+                    <input type="checkbox" name="exclude_work_search[fandom_ids][]" id="exclude_work_search_fandom_ids_2692" value="2692">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Work (1169)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_character_tags" class="filter-toggle character tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_character_tags">
+                <span class="landmark">Exclude </span>Characters </button></dt>
+            <dd id="exclude_character_tags" class="expandable character tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_character_ids_2927">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_2927" value="2927">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Characters (2622)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_3741113">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_3741113" value="3741113">
+                    <span class="indicator" aria-hidden="true"></span><span>Midoriya Izuku (2312)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_3741110">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_3741110" value="3741110">
+                    <span class="indicator" aria-hidden="true"></span><span>Bakugou Katsuki (2154)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_1396993">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_1396993" value="1396993">
+                    <span class="indicator" aria-hidden="true"></span><span>Jeon Jungkook (2053)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_997967">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_997967" value="997967">
+                    <span class="indicator" aria-hidden="true"></span><span>Min Yoongi | Suga (1948)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_4430519">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_4430519" value="4430519">
+                    <span class="indicator" aria-hidden="true"></span><span>Park Jimin (BTS) (1932)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_997964">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_997964" value="997964">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Taehyung | V (1918)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_479641">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_479641" value="479641">
+                    <span class="indicator" aria-hidden="true"></span><span>Original Female Character(s) (1814)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_18954756">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_18954756" value="18954756">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Namjoon | RM (1780)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_character_ids_997962">
+                    <input type="checkbox" name="exclude_work_search[character_ids][]" id="exclude_work_search_character_ids_997962" value="997962">
+                    <span class="indicator" aria-hidden="true"></span><span>Jung Hoseok | J-Hope (1730)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_relationship_tags" class="filter-toggle relationship tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_relationship_tags">
+                <span class="landmark">Exclude </span>Relationships </button></dt>
+            <dd id="exclude_relationship_tags" class="expandable relationship tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_267347">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_267347" value="267347">
+                    <span class="indicator" aria-hidden="true"></span><span>Minor or Background Relationship(s) (1798)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_1110">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_1110" value="1110">
+                    <span class="indicator" aria-hidden="true"></span><span>Sirius Black/Remus Lupin (1128)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_604125">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_604125" value="604125">
+                    <span class="indicator" aria-hidden="true"></span><span>Other Relationship Tags to Be Added (1124)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_37467886">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_37467886" value="37467886">
+                    <span class="indicator" aria-hidden="true"></span><span>Evan "Buck" Buckley/Eddie Diaz (9-1-1 TV) (849)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_4918711">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_4918711" value="4918711">
+                    <span class="indicator" aria-hidden="true"></span><span>Bakugou Katsuki/Kirishima Eijirou (804)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_2467008">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_2467008" value="2467008">
+                    <span class="indicator" aria-hidden="true"></span><span>Jeon Jungkook/Kim Taehyung | V (720)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_11006">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_11006" value="11006">
+                    <span class="indicator" aria-hidden="true"></span><span>Sherlock Holmes/John Watson (702)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_19266044">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_19266044" value="19266044">
+                    <span class="indicator" aria-hidden="true"></span><span>Kim Namjoon | RM/Kim Seokjin | Jin (668)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_5672">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_5672" value="5672">
+                    <span class="indicator" aria-hidden="true"></span><span>Castiel/Dean Winchester (596)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_relationship_ids_18827">
+                    <input type="checkbox" name="exclude_work_search[relationship_ids][]" id="exclude_work_search_relationship_ids_18827" value="18827">
+                    <span class="indicator" aria-hidden="true"></span><span>James Potter/Lily Evans Potter (588)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_exclude_freeform_tags" class="filter-toggle freeform tags collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="exclude_freeform_tags">
+                <span class="landmark">Exclude </span>Additional Tags </button></dt>
+            <dd id="exclude_freeform_tags" class="expandable freeform tags hidden">
+              <ul>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_97914">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_97914" value="97914">
+                    <span class="indicator" aria-hidden="true"></span><span>Texting (35688)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_106225">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_106225" value="106225">
+                    <span class="indicator" aria-hidden="true"></span><span>Chatting &amp; Messaging (23868)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_110">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_110" value="110">
+                    <span class="indicator" aria-hidden="true"></span><span>Fluff (14672)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_128554">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_128554" value="128554">
+                    <span class="indicator" aria-hidden="true"></span><span>Sexting (12278)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_11175">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_11175" value="11175">
+                    <span class="indicator" aria-hidden="true"></span><span>Alternate Universe - Modern Setting (8378)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_176">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_176" value="176">
+                    <span class="indicator" aria-hidden="true"></span><span>Angst (6372)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_62">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_62" value="62">
+                    <span class="indicator" aria-hidden="true"></span><span>Humor (6003)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_3236">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_3236" value="3236">
+                    <span class="indicator" aria-hidden="true"></span><span>Crack (5918)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_604127">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_604127" value="604127">
+                    <span class="indicator" aria-hidden="true"></span><span>Other Additional Tags to Be Added (5851)</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="exclude_work_search_freeform_ids_73112">
+                    <input type="checkbox" name="exclude_work_search[freeform_ids][]" id="exclude_work_search_freeform_ids_73112" value="73112">
+                    <span class="indicator" aria-hidden="true"></span><span>Alternate Universe - College/University (5637)</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt class="autocomplete search">
+              <label for="work_search_excluded_tag_names_autocomplete">Other tags to exclude</label>
+            </dt>
+            <dd class="autocomplete search">
+              <ul class="autocomplete">
+                <li class="input"><input type="text" class="text" autocomplete="off" role="combobox" aria-expanded="true" aria-autocomplete="list" id="work_search_excluded_tag_names_autocomplete">
+                  <div class="autocomplete dropdown" style="display: none;"></div>
+                </li>
+              </ul><input class="autocomplete" data-autocomplete-method="/autocomplete/tag" data-autocomplete-hint-text="Start typing for suggestions!" data-autocomplete-no-results-text="(No suggestions found)" data-autocomplete-min-chars="1" data-autocomplete-searching-text="Searching..." type="text" name="work_search[excluded_tag_names]" id="work_search_excluded_tag_names" style="display: none;">
+            </dd>
+          </dl>
+        </dd>
+        <dt class="more heading">
+          <h4 class="heading">More Options</h4>
+        </dt>
+        <dd class="more group">
+          <dl>
+            <dt id="toggle_work_crossover" class="filter-toggle crossover collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="work_crossover">Crossovers</button></dt>
+            <dd id="work_crossover" class="expandable hidden">
+              <ul>
+                <li>
+                  <label for="work_search_crossover_">
+                    <input type="radio" value="" checked="checked" name="work_search[crossover]" id="work_search_crossover_">
+                    <span class="indicator" aria-hidden="true"></span><span>Include crossovers</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="work_search_crossover_f">
+                    <input type="radio" value="F" name="work_search[crossover]" id="work_search_crossover_f">
+                    <span class="indicator" aria-hidden="true"></span><span>Exclude crossovers</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="work_search_crossover_t">
+                    <input type="radio" value="T" name="work_search[crossover]" id="work_search_crossover_t">
+                    <span class="indicator" aria-hidden="true"></span><span>Show only crossovers</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_work_complete" class="filter-toggle status collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="work_complete">Completion Status</button></dt>
+            <dd id="work_complete" class="expandable hidden">
+              <ul>
+                <li>
+                  <label for="work_search_complete_">
+                    <input type="radio" value="" checked="checked" name="work_search[complete]" id="work_search_complete_">
+                    <span class="indicator" aria-hidden="true"></span><span>All works</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="work_search_complete_t">
+                    <input type="radio" value="T" name="work_search[complete]" id="work_search_complete_t">
+                    <span class="indicator" aria-hidden="true"></span><span>Complete works only</span>
+                  </label>
+                </li>
+                <li>
+                  <label for="work_search_complete_f">
+                    <input type="radio" value="F" name="work_search[complete]" id="work_search_complete_f">
+                    <span class="indicator" aria-hidden="true"></span><span>Works in progress only</span>
+                  </label>
+                </li>
+              </ul>
+            </dd>
+            <dt id="toggle_work_words" class="filter-toggle words collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="work_words">Word Count</button></dt>
+            <dd id="work_words" class="expandable hidden">
+              <dl class="range">
+                <dt><label for="work_search_words_from">From</label></dt>
+                <dd><input type="text" name="work_search[words_from]" id="work_search_words_from"></dd>
+                <dt><label for="work_search_words_to">To</label></dt>
+                <dd><input type="text" name="work_search[words_to]" id="work_search_words_to"></dd>
+              </dl>
+            </dd>
+            <dt id="toggle_work_dates" class="filter-toggle dates collapsed"><button type="button" class="expander" aria-expanded="false" aria-controls="work_dates">Date Updated</button></dt>
+            <dd id="work_dates" class="expandable hidden">
+              <dl class="range">
+                <dt><label for="work_search_date_from">From</label></dt>
+                <dd><input class="datepicker hasDatepicker" type="text" name="work_search[date_from]" id="work_search_date_from"></dd>
+                <dt><label for="work_search_date_to">To</label></dt>
+                <dd><input class="datepicker hasDatepicker" type="text" name="work_search[date_to]" id="work_search_date_to"></dd>
+              </dl>
+            </dd>
+            <details id="stickyFilters">
+              <summary>Saved Filters</summary>
+              <div><label class="filter-box-label" for="globalFilters">global:</label><textarea id="globalFilters"></textarea><span><input type="checkbox" id="enable-global"><label for="enable-global">enable</label></span></div>
+            </details>
+            <dt class="search">
+              <label for="work_search_query">Search within results</label>
+              <a class="help symbol question modal modal-attached" title="Work search text help" href="/help/work-search-text-help.html" aria-controls="modal"><span class="symbol question"><span>?</span></span></a>
+            </dt>
+            <dd class="search">
+              <input type="text" name="work_search[query]" id="work_search_query" hidden="">
+              <input id="fakeSearch" autocomplete="off">
+            </dd>
+            <dt class="language">
+              <label for="work_search_language_id">Language</label>
+            </dt>
+            <dd class="language">
+              <select name="work_search[language_id]" id="work_search_language_id">
+                <option value="" label=" "></option>
+                <option lang="so" value="so">af Soomaali</option>
+                <option lang="afr" value="afr">Afrikaans</option>
+                <option lang="ain" value="ain">Aynu itak | アイヌ イタㇰ</option>
+                <option lang="akk" value="akk">𒀝𒅗𒁺𒌑</option>
+                <option lang="ar" value="ar">العربية</option>
+                <option lang="amh" value="amh">አማርኛ</option>
+                <option lang="egy" value="egy">𓂋𓏺𓈖 𓆎𓅓𓏏𓊖</option>
+                <option lang="oji" value="oji">Anishinaabemowin</option>
+                <option lang="arc" value="arc">ܐܪܡܝܐ | ארמיא</option>
+                <option lang="hy" value="hy">հայերեն</option>
+                <option lang="ase" value="ase">American Sign Language</option>
+                <option lang="ast" value="ast">asturianu</option>
+                <option lang="azj" value="azj">Azərbaycan dili | آذربایجان دیلی</option>
+                <option lang="id" value="id">Bahasa Indonesia</option>
+                <option lang="ms" value="ms">Bahasa Malaysia</option>
+                <option lang="bg" value="bg">Български</option>
+                <option lang="bn" value="bn">বাংলা</option>
+                <option lang="jv" value="jv">Basa Jawa</option>
+                <option lang="ba" value="ba">Башҡорт теле</option>
+                <option lang="be" value="be">беларуская</option>
+                <option lang="bar" value="bar">Boarisch</option>
+                <option lang="bos" value="bos">Bosanski</option>
+                <option lang="br" value="br">Brezhoneg</option>
+                <option lang="bfi" value="bfi">British Sign Language</option>
+                <option lang="bua" value="bua">Буряад хэлэн | ᠪᠤᠷᠢᠶᠠᠳ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ</option>
+                <option lang="ca" value="ca">Català</option>
+                <option lang="ceb" value="ceb">Cebuano</option>
+                <option lang="cs" value="cs">Čeština</option>
+                <option lang="chn" value="chn">Chinuk Wawa</option>
+                <option lang="crh" value="crh">къырымтатар тили | qırımtatar tili</option>
+                <option lang="cy" value="cy">Cymraeg</option>
+                <option lang="da" value="da">Dansk</option>
+                <option lang="de" value="de">Deutsch</option>
+                <option lang="et" value="et">eesti keel</option>
+                <option lang="el" value="el">Ελληνικά</option>
+                <option lang="sux" value="sux">𒅴𒂠</option>
+                <option lang="en" value="en">English</option>
+                <option lang="ang" value="ang">Eald Englisċ</option>
+                <option lang="es" value="es">Español</option>
+                <option lang="eo" value="eo">Esperanto</option>
+                <option lang="eu" value="eu">Euskara</option>
+                <option lang="fa" value="fa">فارسی</option>
+                <option lang="fil" value="fil">Filipino</option>
+                <option lang="cha" value="cha">Finuʼ Chamorro</option>
+                <option lang="fr" value="fr">Français</option>
+                <option lang="frr" value="frr">Friisk</option>
+                <option lang="fry" value="fry">Frysk</option>
+                <option lang="fur" value="fur">Furlan</option>
+                <option lang="ga" value="ga">Gaeilge</option>
+                <option lang="gd" value="gd">Gàidhlig</option>
+                <option lang="gl" value="gl">Galego</option>
+                <option lang="got" value="got">𐌲𐌿𐍄𐌹𐍃𐌺𐌰</option>
+                <option lang="gyn" value="gyn">Creolese</option>
+                <option lang="hak" value="hak">中文-客家话</option>
+                <option lang="ko" value="ko">한국어</option>
+                <option lang="hau" value="hau">Hausa | هَرْشَن هَوْسَ</option>
+                <option lang="hi" value="hi">हिन्दी</option>
+                <option lang="hr" value="hr">Hrvatski</option>
+                <option lang="haw" value="haw">ʻŌlelo Hawaiʻi</option>
+                <option lang="ia" value="ia">Interlingua</option>
+                <option lang="zu" value="zu">isiZulu</option>
+                <option lang="is" value="is">Íslenska</option>
+                <option lang="it" value="it">Italiano</option>
+                <option lang="he" value="he">עברית</option>
+                <option lang="kal" value="kal">Kalaallisut</option>
+                <option lang="xal" value="xal">Хальмг Өөрдин келн</option>
+                <option lang="kan" value="kan">ಕನ್ನಡ</option>
+                <option lang="kat" value="kat">ქართული</option>
+                <option lang="cor" value="cor">Kernewek</option>
+                <option lang="khm" value="khm">ភាសាខ្មែរ</option>
+                <option lang="qkz" value="qkz">Khuzdul</option>
+                <option lang="sw" value="sw">Kiswahili</option>
+                <option lang="ht" value="ht">kreyòl ayisyen</option>
+                <option lang="ku" value="ku">Kurdî | کوردی</option>
+                <option lang="kir" value="kir">Кыргызча</option>
+                <option lang="fcs" value="fcs">Langue des signes québécoise</option>
+                <option lang="lv" value="lv">Latviešu valoda</option>
+                <option lang="lb" value="lb">Lëtzebuergesch</option>
+                <option lang="lt" value="lt">Lietuvių kalba</option>
+                <option lang="la" value="la">Lingua latina</option>
+                <option lang="hu" value="hu">Magyar</option>
+                <option lang="mk" value="mk">македонски</option>
+                <option lang="ml" value="ml">മലയാളം</option>
+                <option lang="mt" value="mt">Malti</option>
+                <option lang="mnc" value="mnc">ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ</option>
+                <option lang="qmd" value="qmd">Mando'a</option>
+                <option lang="mr" value="mr">मराठी</option>
+                <option lang="mik" value="mik">Mikisúkî</option>
+                <option lang="mon" value="mon">ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ᠌ | Монгол Кирилл үсэг</option>
+                <option lang="my" value="my">မြန်မာဘာသာ</option>
+                <option lang="myv" value="myv">Эрзянь кель</option>
+                <option lang="nah" value="nah">Nāhuatl</option>
+                <option lang="nan" value="nan">中文-闽南话 臺語</option>
+                <option lang="ppl" value="ppl">Nawat</option>
+                <option lang="nl" value="nl">Nederlands</option>
+                <option lang="ja" value="ja">日本語</option>
+                <option lang="no" value="no">Norsk</option>
+                <option lang="ce" value="ce">Нохчийн мотт</option>
+                <option lang="ood" value="ood">O’odham Ñiok</option>
+                <option lang="ota" value="ota">لسان عثمانى</option>
+                <option lang="ps" value="ps">پښتو</option>
+                <option lang="nds" value="nds">Plattdüütsch</option>
+                <option lang="pl" value="pl">Polski</option>
+                <option lang="ptBR" value="ptBR">Português brasileiro</option>
+                <option lang="ptPT" value="ptPT">Português europeu</option>
+                <option lang="fuc" value="fuc">Pulaar</option>
+                <option lang="pa" value="pa">ਪੰਜਾਬੀ</option>
+                <option lang="kaz" value="kaz">qazaqşa | қазақша</option>
+                <option lang="qlq" value="qlq">Uncategorized Constructed Languages</option>
+                <option lang="qya" value="qya">Quenya</option>
+                <option lang="ro" value="ro">Română</option>
+                <option lang="rom" value="rom">RRomani Ćhib</option>
+                <option lang="ru" value="ru">Русский</option>
+                <option lang="smi" value="smi">Sámi</option>
+                <option lang="sah" value="sah">саха тыла</option>
+                <option lang="sco" value="sco">Scots</option>
+                <option lang="sq" value="sq">Shqip</option>
+                <option lang="sjn" value="sjn">Sindarin</option>
+                <option lang="si" value="si">සිංහල</option>
+                <option lang="sk" value="sk">Slovenčina</option>
+                <option lang="slv" value="slv">Slovenščina</option>
+                <option lang="sla" value="sla">Slověnьskъ Językъ</option>
+                <option lang="gem" value="gem">Sprēkō Þiudiskō</option>
+                <option lang="sr" value="sr">Српски</option>
+                <option lang="fi" value="fi">suomi</option>
+                <option lang="sv" value="sv">Svenska</option>
+                <option lang="ta" value="ta">தமிழ்</option>
+                <option lang="tat" value="tat">татар теле</option>
+                <option lang="mri" value="mri">te reo Māori</option>
+                <option lang="tel" value="tel">తెలుగు</option>
+                <option lang="tir" value="tir">ትግርኛ</option>
+                <option lang="th" value="th">ไทย</option>
+                <option lang="tqx" value="tqx">Thermian</option>
+                <option lang="bod" value="bod">བོད་སྐད་</option>
+                <option lang="vi" value="vi">Tiếng Việt</option>
+                <option lang="cop" value="cop">ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ</option>
+                <option lang="tlh" value="tlh">tlhIngan-Hol</option>
+                <option lang="tok" value="tok">toki pona</option>
+                <option lang="trf" value="trf">Trinidadian Creole</option>
+                <option lang="tsd" value="tsd">τσακώνικα</option>
+                <option lang="chr" value="chr">ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ</option>
+                <option lang="tr" value="tr">Türkçe</option>
+                <option lang="uk" value="uk">Українська</option>
+                <option lang="ale" value="ale">Unangam Tunuu</option>
+                <option lang="urd" value="urd">اُردُو</option>
+                <option lang="uig" value="uig">ئۇيغۇر تىلى</option>
+                <option lang="vol" value="vol">Volapük</option>
+                <option lang="wuu" value="wuu">中文-吴语</option>
+                <option lang="yi" value="yi">יידיש</option>
+                <option lang="yua" value="yua">maayaʼ tʼàan</option>
+                <option lang="yue" value="yue">中文-广东话 粵語</option>
+                <option lang="zh" value="zh">中文-普通话 國語</option>
+              </select>
+            </dd>
+          </dl>
+        </dd>
+        <dt class="landmark">Submit</dt>
+        <dd class="submit actions"><input type="submit" name="commit" value="Sort and Filter"></dd>
+      </dl>
+      <p class="footnote">
+        <a href="/tags/Chatting%20*a*%20Messaging/works">Clear Filters</a>
+      </p>
+      <div>
+        <input type="hidden" name="tag_id" id="tag_id" value="Chatting *a* Messaging" class="text" autocomplete="off">
+      </div>
+    </fieldset>
+    <p class="narrow-shown hidden">
+      <a href="#main" id="leave_filters" class="close"> Top of Work Index </a>
+    </p>
+  </form>
+</div>
