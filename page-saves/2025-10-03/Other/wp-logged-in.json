@@ -189,6 +189,12 @@
 		},
 		{
 			"transformers": 16349
+		},
+		{
+			"hazbinhotel": 18151
+		},
+		{
+			"helluvaboss": 8557
 		}
 	],
 	"game": [
@@ -356,6 +362,9 @@
 		},
 		{
 			"marvel": 100752
+		},
+		{
+			"kpopdemonhunters": 2203
 		}
 	],
 	"book": [
