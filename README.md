@@ -1,7 +1,9 @@
 # fandom-migrations
 tracking how fandoms shift between fic posting platforms via wayback machine and spreadsheets.
 
-This project was started because I kept seeing people say that anime/manga fandom was like, a totally different sphere from the `~`Western Media Fandoms`~` that hung out on livejournal and eventually bore AO3
+This project was started because I kept seeing people say that anime/manga fandom was like, a totally different sphere from the `~Western Media Fandoms~` that hung out on livejournal and eventually bore AO3.
+
+Anyway, if you want the raw data, we have the `.Master CSV` folder with a bunch of csv files exported from the `Master Data Harvest.ods` file, where four times a year, I go to all these various fanfiction archives to type in the data I'm gathering with my wretched little HANDS i do SO much of this by hand orz. Not as much as I used to (see the `qol-userscripts` folder) but still. Anyway the csvs are separated by **SEMICOLONS** so if you're gonna import that for a project um. Watch out!
 
 ## fandoms chosen:
 
