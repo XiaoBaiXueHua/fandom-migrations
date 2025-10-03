@@ -21,7 +21,6 @@ for (const f of fandoms) {
 	}
 	k++;
 }
-// localStorage.setItem(`change in ${document.querySelector(`#main h2.heading`).innerText.trim()}`, JSON.stringify(listObj)); // save it to local storage
 console.log(`listObj: `, Object.entries(listObj));
 console.log(`localStorage: `, Object.entries(JSON.parse(localStorage.getItem(`change in ${document.querySelector(`#main h2.heading`).innerText.trim()}`))));
 
@@ -64,10 +63,13 @@ console.log(newPops);
 for (const n of newPops) {
 	pusher(listObj, n[0], minimumToTrack);
 }
-console.log(`da arrays of sorted fandoms: \n`, wan, wuqian, wuqian, wubai, bai);
-// var j = 0; // this tracks the adjustment from the other thing
-// for (var i = 0; i < newEntries.length; i++) {
-//// using the new entries in case some new fandom broke 100 fics
-//// we're also going to assume that fandoms don't generally Go Down, though i guess since this is alphabetical order, we could always just test that...
 
-// }
+// now we class them so that we can just use css to look at shit
+for (const [f, info] of newEntries) {
+	console.log(f, info);
+	const fan = fandoms[info.index];
+	fan.className = info.klass; // they're just the lis, which don't have any innate classes, so it's Fine
+	fan.insertAdjacentHTML(`beforeend`, ` <span class="delta">[<strong>Δ:</strong> ${info.delta}]</span>`);
+}
+
+localStorage.setItem(`change in ${document.querySelector(`#main h2.heading`).innerText.trim()}`, JSON.stringify(listObj)); // save it to local storage once everything's done

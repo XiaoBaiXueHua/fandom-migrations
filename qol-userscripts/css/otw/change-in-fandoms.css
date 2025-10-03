@@ -1,0 +1,19 @@
+#main {
+	.letter {
+		li:has(a.tag) {
+			display: none;
+		}
+
+		li {
+
+			&.wan,
+			&.wuqian,
+			&.qian,
+			&.wubai,
+			&.bai {
+				display: revert !important;
+			}
+		}
+	}
+
+}
