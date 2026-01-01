@@ -1,0 +1,479 @@
+{
+	"anime": [
+		{
+			"sailormoon": 2782
+		},
+		{
+			"inuyasha": 4615
+		},
+		{
+			"cardcaptorsakura": 254
+		},
+		{
+			"bleach": 8065
+		},
+		{
+			"princeoftennis": 537
+		},
+		{
+			"naruto": 70735
+		},
+		{
+			"fruitsbasket": 1602
+		},
+		{
+			"fullmetalalchemist": 2638
+		},
+		{
+			"souleater": 6791
+		},
+		{
+			"fairytail": 53685
+		},
+		{
+			"blueexorcist": 3209
+		},
+		{
+			"hetalia": 33005
+		},
+		{
+			"madokamagica": 868
+		},
+		{
+			"rwby": 32757
+		},
+		{
+			"jjba": 9985
+		},
+		{
+			"attackontitan": 39408
+		},
+		{
+			"haikyuu": 62228
+		},
+		{
+			"mha": 134134
+		},
+		{
+			"yurionice": 6219
+		},
+		{
+			"spyxfamily": 1461
+		},
+		{
+			"ohshc": 7026
+		},
+		{
+			"swordartonline": 4095
+		},
+		{
+			"assassinationclassroom": 5192
+		},
+		{
+			"kny": 17747
+		},
+		{
+			"bsd": 12627
+		},
+		{
+			"gundam": 1475
+		}
+	],
+	"cartoon": [
+		{
+			"mlp": 15321
+		},
+		{
+			"voltron": 18753
+		},
+		{
+			"vld": 4426
+		},
+		{
+			"daria": 242
+		},
+		{
+			"powerpuffgirls": 1160
+		},
+		{
+			"invaderzim": 2160
+		},
+		{
+			"kimpossible": 528
+		},
+		{
+			"teentitans": 5974
+		},
+		{
+			"dannyphantom": 4004
+		},
+		{
+			"atla": 5033
+		},
+		{
+			"lok": 1275
+		},
+		{
+			"totaldrama": 6891
+		},
+		{
+			"gravityfalls": 16787
+		},
+		{
+			"stevenuniverse": 13942
+		},
+		{
+			"miraculousladybug": 15545
+		},
+		{
+			"svtfoe": 2740
+		},
+		{
+			"shera": 1967
+		},
+		{
+			"transformers": 16459
+		},
+		{
+			"hazbinhotel": 19794
+		},
+		{
+			"helluvaboss": 8804
+		},
+		{
+			"arcane": 5288
+		}
+	],
+	"tv": [
+		{
+			"supernatural winchester": 31956
+		},
+		{
+			"doctorwho": 16095
+		},
+		{
+			"sherlock": 16522
+		},
+		{
+			"startrek": 3316
+		},
+		{
+			"glee": 10364
+		},
+		{
+			"ouat": 11267
+		},
+		{
+			"buffy": 1098
+		},
+		{
+			"merlin": 8000
+		},
+		{
+			"stargate": 556
+		},
+		{
+			"teenwolf": 38237
+		},
+		{
+			"thewalkingdead": 21500
+		},
+		{
+			"xfiles": 278
+		},
+		{
+			"agentsofshield": 2778
+		},
+		{
+			"agentcarter": 573
+		},
+		{
+			"daredevil": 2242
+		},
+		{
+			"jessicajones": 434
+		},
+		{
+			"wandavision": 1313
+		},
+		{
+			"heatedrivalry": 91
+		}
+	],
+	"game": [
+		{
+			"legendofzelda": 4670
+		},
+		{
+			"sonic": 20844
+		},
+		{
+			"pokemon": 44654
+		},
+		{
+			"finalfantasy": 2973
+		},
+		{
+			"kingdomhearts": 4046
+		},
+		{
+			"persona": 3408
+		},
+		{
+			"fireemblem": 3460
+		},
+		{
+			"leagueoflegends": 5081
+		},
+		{
+			"dragonage": 1739
+		},
+		{
+			"minecraft": 45461
+		},
+		{
+			"danganronpa": 40820
+		},
+		{
+			"fnaf": 62768
+		},
+		{
+			"undertale": 56148
+		},
+		{
+			"mysticmessenger": 4629
+		},
+		{
+			"overwatch": 7555
+		},
+		{
+			"genshinimpact": 31348
+		},
+		{
+			"honkaiimpact3rd": 1177
+		},
+		{
+			"honkai": 2259
+		},
+		{
+			"honkaistarrail": 2538
+		},
+		{
+			"zenlesszonezero": 627
+		},
+		{
+			"projectsekai": 3567
+		},
+		{
+			"ensemblestars": 580
+		},
+		{
+			"umamusume": 262
+		},
+		{
+			"deltarune": 3762
+		}
+	],
+	"bandom": [
+		{
+			"onedirection": 148652
+		},
+		{
+			"mychemicalromance": 16098
+		},
+		{
+			"panicatthedisco": 9569
+		},
+		{
+			"falloutboy": 8416
+		},
+		{
+			"twentyonepilots": 17064
+		},
+		{
+			"taylorswift": 15627
+		},
+		{
+			"bandom": 1320
+		},
+		{
+			"nsync": 258
+		},
+		{
+			"thebeatles": 3896
+		}
+	],
+	"kpop": [
+		{
+			"Kpop": 186132
+		},
+		{
+			"bts": 343634
+		},
+		{
+			"shinee": 6647
+		},
+		{
+			"exo": 57220
+		},
+		{
+			"redvelvet": 14806
+		},
+		{
+			"twice": 29039
+		},
+		{
+			"blackpink": 48273
+		},
+		{
+			"nct": 41701
+		},
+		{
+			"straykids": 58030
+		},
+		{
+			"seventeen": 32862
+		},
+		{
+			"txt": 20343
+		},
+		{
+			"got7": 27890
+		},
+		{
+			"monstax": 9696
+		},
+		{
+			"loona": 5826
+		},
+		{
+			"superjunior": 3209
+		}
+	],
+	"movie": [
+		{
+			"starwars": 32674
+		},
+		{
+			"avengers": 72451
+		},
+		{
+			"thor": 25787
+		},
+		{
+			"captainamerica": 30095
+		},
+		{
+			"guardiansofthegalaxy": 2326
+		},
+		{
+			"marvel": 100553
+		},
+		{
+			"kpopdemonhunters": 2356
+		}
+	],
+	"book": [
+		{
+			"lotr": 6036
+		},
+		{
+			"thehobbit": 3804
+		},
+		{
+			"silmarillion": 421
+		},
+		{
+			"gameofthrones": 10808
+		},
+		{
+			"harrypotter": 193651
+		},
+		{
+			"warriorcats": 27487
+		},
+		{
+			"pjo": 24374
+		},
+		{
+			"hoo": 14080
+		},
+		{
+			"twilight": 37949
+		},
+		{
+			"hungergames": 17217
+		},
+		{
+			"phantomoftheopera": 1936
+		},
+		{
+			"mdzs": 4032
+		},
+		{
+			"orv": 1060
+		},
+		{
+			"goodomens": 2564
+		},
+		{
+			"thekingsavatar": 53
+		},
+		{
+			"maximumride": 1026
+		},
+		{
+			"narnia": 4829
+		},
+		{
+			"divergent": 11600
+		},
+		{
+			"vampireacademy": 2183
+		},
+		{
+			"asoue": 1016
+		}
+	],
+	"misc": [
+		{
+			"vocaloid": 9435
+		},
+		{
+			"homestuck": 15874
+		},
+		{
+			"hamilton": 21546
+		},
+		{
+			"danandphil": 11730
+		},
+		{
+			"wwe": 16185
+		},
+		{
+			"roosterteeth": 2612
+		},
+		{
+			"youtube": 67603
+		},
+		{
+			"welcometonightvale": 321
+		},
+		{
+			"lesmiserables": 1028
+		},
+		{
+			"hermitcraft": 4387
+		},
+		{
+			"dreamsmp": 36843
+		},
+		{
+			"hololive": 1767
+		},
+		{
+			"tadc": 2219
+		}
+	]
+}
