@@ -77,7 +77,10 @@
 		},
 		{
 			"gundam": 1475
-		}
+		},
+		{ "dandadan": 304 },
+		{ "apothecarydiaries": 126 },
+		{ "frieren": 126 }
 	],
 	"cartoon": [
 		{
@@ -433,7 +436,8 @@
 		},
 		{
 			"asoue": 1016
-		}
+		},
+		{ "aftg": 217 }
 	],
 	"misc": [
 		{
