@@ -21,30 +21,40 @@ backup_listing.id = `asianfanfics-export-${new Date}`;
 
 // function to loop through the els to read what they are
 function ooo(el, i) {
-	backup_listing.innerHTML += `<!-- Page ${i} -->\n${el.querySelector(`.tags__container`).innerHTML}`;
-	const sps = el.querySelectorAll(`.tags__container > span`);
+	const par_el = `#main-container form + div.flex`;
+	backup_listing.innerHTML += `<!-- Page ${i} -->\n${el.querySelector(`${par_el}`).innerHTML}`;
+	const sps = el.querySelectorAll(`${par_el} > a`);
 	for (const s of sps) {
-		const a = s.querySelector(`a`);
-		if (bands.includes(a.innerText)) {
-			console.log(`found ${a.innerText} on page ${i}.`);
-			found.push(a.innerText);
-			const fics = s.querySelector(`span`).innerText.trim();
-			results[a.innerText] = fics.substring(1, fics.length - 1);
+		// const sp = s.querySelector(`span`);
+		const sp = s.innerText.split(/\n/);
+		// console.log(sp);
+		const inText = sp[0];
+		// const inText = s.innerText.replaceAll(sp.outerHTML, ``).trim();
+		// console.log(inText);
+		// const a = s.querySelector(`a`);
+		if (bands.includes(inText)) {
+			console.log(`found ${inText} on page ${i}.`);
+			found.push(inText);
+			// const fics = sp.innerText.trim();
+			results[inText] = sp[1];
 		}
 	}
 }
 
 async function fish() {
-	ooo(document, 0); // do it for the current page
+	ooo(document, 1); // do it for the current page
 	var i = 1;
 	while (found.length !== bands.length || i < 15) { // just keep going until all the things are found Or we hit 1500 tags, whichever comes later
-		// console.log(`fetching the next ${i*100}`);
-		const fetchNext = await fetch(new Request(`/browse/pop_tags/${i * 100}`));
+		i++; // iterate this first?
+		console.log(`fetching the next ${i}`);
+		const fetchNext = await fetch(new Request(`/browse/popular-tags?page=${i}`));
 		const nextTxt = await fetchNext.text();
 		const tmpDiv = document.createElement(`div`);
 		tmpDiv.innerHTML = nextTxt;
 		ooo(tmpDiv, i);
-		i++;
+		if (i > 15) {
+			break; // the new version of the site is clearly vibes-coded and takes longer to respond, so just kill it after 15 tbh
+		}
 	}
 	console.log(results);
 
@@ -70,4 +80,4 @@ const expButton = document.createElement(`button`);
 expButton.innerHTML = `<a href="#">Export Tags</a>`;
 expButton.addEventListener("click", fish);
 
-document.querySelector(`#advanced-search form`).appendChild(expButton);
+document.querySelector(`.text-center h1`).appendChild(expButton);
